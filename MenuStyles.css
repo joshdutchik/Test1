@@ -4,12 +4,24 @@ body {
 
 h1 {
   text-align: center;
-  color: goldenrod
+  color: goldenrod;
+  font-size: 65px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 25px 25px;
   grid-template-columns: auto auto auto auto;
-  align-content: center;
+  text-align: center;
+  color: goldenrod;
+  font-size: 25px;
+}
+
+.grid-items {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  color: goldenrod;
+  font-size: 15px
 }
