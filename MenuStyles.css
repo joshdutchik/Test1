@@ -1,7 +1,15 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 500px 500px 500px;
-  }
+body {
+  background-color:lightblue;
+}
 
-  
+h1 {
+  text-align: center;
+  color: goldenrod
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: auto auto auto auto;
+  align-content: center;
+}
