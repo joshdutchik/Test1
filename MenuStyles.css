@@ -5,16 +5,17 @@ body {
 h1 {
   text-align: center;
   color: goldenrod;
-  font-size: 65px;
+  font-size: 80px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-rows: 25px 25px;
+  grid-template-rows: 40px 40px;
   grid-template-columns: auto auto auto auto;
   text-align: center;
   color: goldenrod;
-  font-size: 25px;
+  font-size: 40px;
+  font-style: bold;
 }
 
 .grid-items {
@@ -23,5 +24,22 @@ h1 {
   grid-template-columns: auto auto auto auto;
   text-align: center;
   color: goldenrod;
-  font-size: 15px
+  font-size: 15px;
+
+}
+
+.grid-images {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-style: italic;
 }
