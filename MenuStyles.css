@@ -1,27 +1,51 @@
 body {
-  background-color:lightblue;
+  background-color: lightblue;
 }
 
 h1 {
   text-align: center;
   color: goldenrod;
-  font-size: 65px;
+  font-size: 100px;
+  font-family: fantasy;
 }
 
 .grid-container {
   display: grid;
-  grid-template-rows: 25px 25px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 40px 40px;
+  grid-template-columns: 350px 350px 350px 350px;
   text-align: center;
   color: goldenrod;
-  font-size: 25px;
+  font-size: 43px;
+  font-style: bold;
+  grid-column-gap: 15px;
 }
 
 .grid-items {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 350px 350px 350px 350px;
   text-align: center;
   color: goldenrod;
-  font-size: 15px
+  font-size: 18px;
+  grid-column-gap: 15px;
 }
+
+.grid-images {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 350px 350px 350px 350px;
+  grid-column-gap: 15px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-style: italic;
+}
+
+
+
