@@ -12,18 +12,19 @@ h1 {
 .grid-container {
   display: grid;
   grid-template-rows: 40px 40px;
-  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-columns: 450px 450px 450px 450px;
   text-align: center;
   color: goldenrod;
   font-size: 43px;
   font-style: bold;
   grid-column-gap: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .grid-items {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-columns: 450px 450px 450px 450px;
   text-align: center;
   color: goldenrod;
   font-size: 18px;
@@ -33,7 +34,7 @@ h1 {
 .grid-images {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-columns: 450px 450px 450px 450px;
   grid-column-gap: 15px;
 }
 
@@ -47,5 +48,16 @@ p {
   font-style: italic;
 }
 
+@media screen and (max-width: 992px) {
+  .grid-items {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-items {
+    width: 100%;
+  }
+}
 
 
