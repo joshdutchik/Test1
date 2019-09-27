@@ -18,7 +18,6 @@ h1 {
   font-size: 43px;
   font-style: bold;
   grid-column-gap: 15px;
-  grid-row-gap: 15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -30,16 +29,8 @@ h1 {
   color: goldenrod;
   font-size: 18px;
   grid-column-gap: 15px;
-  grid-row-gap: 15px;
 }
 
-.grid-images {
-  display: grid;
-  grid-template-rows: auto;                                                                                                                   
-  grid-template-columns: 450px 450px 450px 450px;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
-}
 
 img {
   display: block;
@@ -51,6 +42,18 @@ p {
   font-style: italic;
 }
 
+.whole-grid {
+  display: grid;
+  grid-template-rows: auto;                                                                                                                   
+  grid-template-columns: auto;
 
+}
+
+
+@media (max-width: 900px){
+  .grid-items{
+    grid-template: 1fr;
+  }
+}
 
 
