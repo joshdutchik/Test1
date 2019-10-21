@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html>
     
-
     
-    <head>
-        <title>Chef Dutchik's Fast Italian Grill</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
+    
+ 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <div class="burger burger-arrow">
+        <div class="burger-lines"></div>
+      </div>
     <body>               
-        <header>
-            <h1>Chef Dutchik's Fast Italian Grill</h1>
-            <i>Since 2009</i>
-        </header>
-        <nav>
-            <div id="burger" class="hamburger burger burger-squeeze" onclick="toggleMenu()">
-                <div class="burger-lines"></div>
-            </div>
-            <ul id="main-nav">
-                <li>
-                    <a href="#our-story">Our Story</a>
-                </li>
-                <li>
-                    <a href="#menu">Menu</a>
-                </li>
-                <li>
-                    <a href="#staff">Staff</a>
-                </li>
-                <li>
-                    <a href="#location">Where to find us</a>
-                </li>
-                <li>
-                    <a href="#info">Contact Info</a>
-                </li>   
-            </ul>
-        </nav>
-        <main>
-            <section id="our-story">
-                <h2>Our Story</h2>
-                <p>My family came over to America </p>              
-            </section>
+        <div w3-include-html="navigation.html"></div>
+        <div w3-include-html="banner.html"></div>
+           
         
-        
-        </main>
-        <script type="text/javascript" src="include.js"></script>
+        <h1>About Us: </h1>
+            <p> Our Family came over from America</p>
+
+        <h2> Reviews:</h2>
+            <p> "Best Food" </p>
+            <p> "Yes" <p>
+            <p> "K" </p>
+
+        <h3> Hours:</h3>
+        <h4> Monday-Thursday: 7:00-9:00 </h4>
+        <h4> Friday-Saturday: 7:00-11:00</h4>                                               
+        <h4> Sunday: 6:00-7:00 </h4> 
+
+    <footer >
+        <p>Phone #: 319-333-1234</p>
+        <p>Address: 25 Sug Lane</p>
+        <p>Iowa City, IA 52317 </p>
+    </footer>
+    <script type="text/javascript" src="include.js"></script>
+    <script type="text/javascript" src="burgers.js"></script>
+    <script> includeHTML();</script>
     </body>
 
    
