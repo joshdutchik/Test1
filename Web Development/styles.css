@@ -1,7 +1,8 @@
 
 
 body {
-    background-color: gray;
+    background-color: lightblue;
+    color: goldenrod;
 }
 
 footer {
@@ -22,6 +23,25 @@ h3 {
 }
 
 h4 {
-    text-emphasis: center;
-    color: blue;
+    text-align: center;
+    color: goldenrod;
+}
+
+img { 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+header {
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 35px;
 }
