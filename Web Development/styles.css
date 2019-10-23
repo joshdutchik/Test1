@@ -15,6 +15,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 20px;
+    position: relative;
 }
 
 h3 {
@@ -45,3 +46,4 @@ h1{
 h2 {
     font-size: 35px;
 }
+
