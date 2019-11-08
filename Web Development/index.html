@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html>
     
-    
-    
- 
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    
+    <head>
+        <title>Chef Dutchik's</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <!--jquery script-->
+        <!--put linked scripts in head and scripts with calls at the bottom of the body-->
+        <script type="text/javascript" src="togglemenu.js"></script>
+        <script type="text/javascript" src="navigate.js"></script>
+        <script type="text/javascript" src="togglecart.js"></script>
+        <script type="text/javascript" src="online-order.js"></script>
+        <script type="text/javascript" src="fill-food-menu.js"></script>
+        <script type="text/javascript" src="include.js"></script>
+    </head>
+
     <div class="burger burger-arrow">
         <div class="burger-lines"></div>
-      </div>
+    </div>
+
     <body>               
+        
         <div w3-include-html="navigation.html"></div>
         <div w3-include-html="banner.html"></div>
+        <header w3-include-html="header.html"></header>
+        <section id="cart-area" w3-include-html="cart.html"></section>
+        <nav w3-include-html="nav-menu.html"></nav>
+        
+
+        <script>
+            window.onload = async function() {
+            await includeHTML();
+            console.log("script called");
+            await updateCart();
+            await populateFood();
+        }
+        </script>
           
-        <img src="http://www.cavatores.com/wp-content/uploads/2018/07/CAV-22.jpg" width=250px height=250px>
+        <img src="http://www.cavatores.com/wp-content/uploads/2018/07/CAV-22.jpg" width=500px height=500px>
         
         <h1>About Us: </h1>
             <p> Our Family came over from America to follow our dream of starting an affordable and fast Italian restuarant</p>
