@@ -1,58 +1,80 @@
 {
     "menu": [{
-            "name": "Soups & Salads",
+            "name": "Pizza",
             "items": [{
-                "name": "Watermelon Gazpacho",
-                "description": "Served cold with cucumber and dill creme fraiche",
-                "image": "/images/watermelon-gazpacho.jpg",
+                "name": "DAILY PIZZA",
+                "description": "chef's choice",
+                "image": "",
                 "price": 3
             }, {
-                "name": "Grilled Peach & Smoked Salmon Salad",
-                "description": "Arugula, candied sliced almonds, radicchio",
-                "image": "https://cdn1.woolworths.media/content/recipes/1712-chargrilled-peach-and-salmon-salad.jpg",
-                "price": 4
-            }]
-        },
-        {
-            "name": "Appetizers",
-            "items": [{
-                "name": "Bacon-Wrapped Figs",
-                "description": "Hot grilled with maple-chipotle dipping sauce and stuffed with goat cheese",
-                "image": "https://www.thehungryhutch.com/wp-content/uploads/2012/08/Bacon-Wrapped-Figs-w-Goat-Cheese-Feature.jpg",
-                "price": 6
-            }]
-        },
-        {
-            "name": "Pastas",
-            "items": [{
-                "name": "Pumpkin Mascarpone Ravioli",
-                "description": "Served with a sage brown butter sauce and toasted pumpkin seeds",
-                "price": 11
-            }]
-        },
-        {
-            "name": "Entrees",
-            "items": [{
-                "name": "Smoked Pork Ribs with Blueberry BBQ Sauce",
-                "description": "Side of beer-battered rosemary sweet potato wedges",
+                "name": "MARGHERITA",
+                "description": "mozzarella, fresh basil, olive oil, red sauce",
+                "image": "",
+                "price": 14
+            }, {
+                "name": "FUNGHI",
+                "description": "roasted mushroom, onion, smoked mozzarella",
+                "image": "",
+                "price": 15
+            }, {
+                "name": "MEATLOVERS",
+                "description": "spicy pepperoni, italian sausage",
+                "image": "",
                 "price": 16
-            }, {
-                "name": "Pomegranate Lamb Chops",
-                "description": "Marinated overnight in a curried yogurt and slow-smoked, served with a cauliflower sunchoke mash",
-                "price": 20
             }]
         },
         {
-            "name": "Beverages",
+            "name": "Sandwiches",
             "items": [{
-                "name": "Coke Products",
-                "description": "Coke, Diet Coke, Cherry Coke, Sprite",
-                "price": 2
+                "name": "GRILLED CHICKEN",
+                "description": "crispy pancetta, provolone",
+                "image": "",
+                "price": 13
             }, {
-                "name": "Specialty Sodas",
-                "description": "Jones, Saranac, Millstream",
-                "price": 3,
-                "image": "https://insiderfinancial.com/wp-content/uploads/2019/03/Jones-Soda.jpg"
+                "name": "ITALIAN GRINDER",
+                "description": "turkey, molinari salami, provolone, romaine, tomato, onion, oregano",
+                "image": "",
+                "price": 13
+            }, {
+                "name": "OUR FAMOUS MEATBALL SANDWICH",
+                "description": "braised meatballs, marinara, cheese",
+                "image": "",
+                "price": 13.5
+            }]
+        },
+        {
+            "name": "Salad",
+            "items": [{
+                "name": "CAESAR",
+                "description": "romaine hearts, classic crouton, classic ceasar",
+                "price": 9.5
+            }, {
+                "name": "COBB",
+                "description": "chopped greens, tomato, bacon, roasted chicken, hard-boiled eggs, and vinaigrette",
+                "image": "",
+                "price": 10
+            }, {
+                "name": "FRUIT",
+                "description": "strawberries, blueberries, pineapple, kiwi, and green apple slices",
+                "image": "",
+                "price": 9
+            }]
+        },
+        {
+            "name": "Main",
+            "items": [{
+                "name": "SPAGHETTI & MEATBALLS",
+                "description": "traditional tomato sauce, basil, olive oil, cheese",
+                "price": 17
+            }, {
+                "name": "CHICKEN PARMESAN",
+                "description": "crushed tomato, aged provolone, mozzarella, parmesan",
+                "price": 20,
+                "image": ""
+            }, {
+                "name": "LASAGNA",
+                "description": "beef, vegetables, cheese, and topped with melted grated cheese",
+                "price": 15
             }]
         }
     ]
