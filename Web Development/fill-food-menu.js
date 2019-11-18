@@ -15,7 +15,7 @@ const populateFood = async function() {
         menuData.menu.forEach(category => {
             // section and heading
             categorySection = document.createElement("section"); // step 2: create new element
-            categoryHeading = document.createElement("h3"); // step 2: create new element
+            categoryHeading = document.createElement("h2"); // step 2: create new element
             categoryHeading.innerText = category.name; // step 3: create content
             categorySection.appendChild(categoryHeading); // step 4: append child
             foodMenuElement.appendChild(categorySection); // step 4: append child 
