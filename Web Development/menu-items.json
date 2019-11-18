@@ -39,7 +39,7 @@
                 "name": "OUR FAMOUS MEATBALL SANDWICH",
                 "description": "braised meatballs, marinara, cheese",
                 "image": "",
-                "price": 13.5
+                "price": 13.50
             }]
         },
         {
@@ -47,7 +47,7 @@
             "items": [{
                 "name": "CAESAR",
                 "description": "romaine hearts, classic crouton, classic ceasar",
-                "price": 9.5
+                "price": 9.50
             }, {
                 "name": "COBB",
                 "description": "chopped greens, tomato, bacon, roasted chicken, hard-boiled eggs, and vinaigrette",
