@@ -1,65 +1,68 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
-        <title>Chef Dutchik's</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <!--jquery script-->
-        <!--put linked scripts in head and scripts with calls at the bottom of the body-->
-        <script type="text/javascript" src="togglemenu.js"></script>
-        <script type="text/javascript" src="navigate.js"></script>
-        <script type="text/javascript" src="togglecart.js"></script>
-        <script type="text/javascript" src="online-order.js"></script>
-        <script type="text/javascript" src="fill-food-menu.js"></script>
-        <script type="text/javascript" src="include.js"></script>
-    </head>
 
-    <div class="burger burger-arrow">
-        <div class="burger-lines"></div>
-    </div>
+<head>
+    <title>Chef Dutchik's</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--jquery script-->
+    <!--put linked scripts in head and scripts with calls at the bottom of the body-->
+    <script type="text/javascript" src="togglemenu.js"></script>
+    <script type="text/javascript" src="navigate.js"></script>
+    <script type="text/javascript" src="togglecart.js"></script>
+    <script type="text/javascript" src="online-order.js"></script>
+    <script type="text/javascript" src="fill-food-menu.js"></script>
+    <script type="text/javascript" src="include.js"></script>
+</head>
 
-    <body>               
-        
-        <div w3-include-html="navigation.html"></div>
-        <div w3-include-html="banner.html"></div>
-        <header w3-include-html="header.html"></header>
-        
+<div class="burger burger-arrow">
+    <div class="burger-lines"></div>
+</div>
 
-        <script>
-            window.onload = async function() {
+<body>
+
+    <div w3-include-html="navigation.html"></div>
+    <div w3-include-html="banner.html"></div>
+    <header w3-include-html="header.html"></header>
+
+
+    <script>
+        window.onload = async function() {
             await includeHTML();
             console.log("script called");
             await updateCart();
             await populateFood();
         }
-        </script>
-          
-        <img src="http://www.cavatores.com/wp-content/uploads/2018/07/CAV-22.jpg" width=500px height=500px>
-        
-        <h1>About Us: </h1>
-            <p> Our Family came over from America to follow our dream of starting an affordable and fast Italian restuarant</p>
+    </script>
 
-        <h2> Reviews:</h2>
-            <p> "Best Food" </p>
-            <p> "This is the best place I have ever been too!!" <p>
+    <img src="http://www.cavatores.com/wp-content/uploads/2018/07/CAV-22.jpg" width=500px height=500px>
+
+    <h1>About Us: </h1>
+    <p> Our Family came over from America to follow our dream of starting an affordable and fast Italian restuarant</p>
+
+    <h2> Reviews:</h2>
+    <p> "Best Food" </p>
+    <p> "This is the best place I have ever been too!!"
+        <p>
             <p> "It was okay" </p>
 
-        <h3> Hours:</h3>
-        <h4> Monday-Thursday: 7:00-9:00 </h4>
-        <h4> Friday-Saturday: 7:00-11:00</h4>                                               
-        <h4> Sunday: 6:00-7:00 </h4> 
+            <h3> Hours:</h3>
+            <h4> Monday-Thursday: 7:00-9:00 </h4>
+            <h4> Friday-Saturday: 7:00-11:00</h4>
+            <h4> Sunday: 6:00-7:00 </h4>
 
-    <footer >
-        <p>Phone #: 319-333-1234</p>
-        <p>Address: 25 Sugg Lane</p>
-        <p>Iowa City, IA 52317 </p>
-    </footer>
-    <script type="text/javascript" src="include.js"></script>
-    <script type="text/javascript" src="burgers.js"></script>
-    <script> includeHTML();</script>
-    </body>
+            <footer>
+                <p>Phone #: 319-333-1234</p>
+                <p>Address: 25 Sugg Lane</p>
+                <p>Iowa City, IA 52317 </p>
+            </footer>
+            <script type="text/javascript" src="include.js"></script>
+            <script type="text/javascript" src="burgers.js"></script>
+            <script>
+                includeHTML();
+            </script>
+</body>
 
-   
-    
+
+
 
 </html>

@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Chef Dutchik's</title>
+    <script type="text/javascript" src="togglemenu.js"></script>
+    <script type="text/javascript" src="navigate.js"></script>
+    <script type="text/javascript" src="include.js"></script>
+    <script type="text/javascript" src="burgers.js"></script>
+</head>
+
+<div class="burger burger-arrow">
+    <div class="burger-lines"></div>
+</div>
+
+
+
+<body>
+
+    <div w3-include-html="navigation.html"></div>
+    <div w3-include-html="banner.html"></div>
+    <header w3-include-html="header.html"></header>
+
+
+    <h2>Contact Us!</h2>
+    <p>Message us about any concerns or comments you may have about our restuarant.</p>
+
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personal information:</legend>
+            Name:<br>
+            <input type="text" name="name" value="">
+            <br> Reason for Message:<br>
+            <input type="text" name="reason" value="">
+            <br> Telephone Number: <br>
+            <input type="text" name="number" value="">
+            <br> Email: <br>
+            <input type="text" name="email" value="">
+            <br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
